@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Formatação do body */
+body {
+    background-image: url("assets/background.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Formatação do card */
+body .card {
+    width: 350px;
+}
+
+body .fundo-azul {
+    background-image: url("assets/bg-pattern-card.svg");
+    height: 140px;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 350px;
+    background-color: #FFF;
+    border-radius: 15px 15px;
+}
+
+.card img {
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    width: 96px;
+    margin: -55px 127px 10px 127px;
+}
+
+/* Formatação de fontes */
+h1 {
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2E3349;
+    padding: 8px 0px 8px 0px;
+}
+
+h2 {
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    font-size: 10px;
+    color: #2E3349;
+}
+
+.nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.nome .idade {
+    font-weight: 400;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    color: #2E3349;
+    display: flex;
+    column-gap: 25px;
+}
+
+.apresentacao h2 {
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2E3349;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 24px;
+    border-bottom: 0.5px solid rgb(175, 173, 173);
+}
+
+.rodape section {
+    display: flex;
+    padding: 5px 0 14px 0;
+}
+
+section .followers {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section .likes {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section .photos {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

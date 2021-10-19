@@ -1,0 +1,80 @@
+body {
+    padding: 125px;
+    background-color: #E5E5E5;
+}
+
+/* Formatação do primeiro card*/
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -20px #D4DCF3;
+    border-radius: 10px;
+    max-width: 280px;
+    padding: 35px 83px 70px 100px;
+    margin: 0 auto
+}
+
+.aspaP {
+    font-family: Merriweather;
+    font-size: 22px;
+    color: #101439;
+    line-height: 36px;
+}
+
+.autorAspa {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #101439;
+}
+
+/* Formatação do segundo card*/
+.card1 {
+    background: #101439;
+    box-shadow: 0px 15px 30px -20px #D4DCF3;
+    border-radius: 10px;
+    max-width: 310px;
+    max-height: 200px;
+    margin: 0 auto;
+    padding: 20px 30px 130px 60px;
+}
+
+h1 {
+    font-family: Merriweather;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 100;
+    margin: 20px 0px 10px 0px;
+}
+
+p {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.link {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 1px 15px 1px 15px;
+    margin: 45px 40px 15px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #101439;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px;
+}
+

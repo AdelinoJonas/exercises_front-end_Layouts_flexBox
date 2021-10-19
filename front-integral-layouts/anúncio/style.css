@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Karla;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p,
+a,
+span {
+    font-size: 16px;
+}
+
+ul {
+    font-size: 16px;
+}
+
+.card {
+    width: 635px;
+    /* height: 475px; */
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+/* Parte de cima */
+.cabecalho {
+    padding: 20px 40px 40px;
+}
+
+.cabecalho h1,
+.cabecalho h2,
+.cabecalho p {
+    letter-spacing: -0.3px;
+    color: #2AB3B1;
+    padding-bottom: 9px;
+}
+
+.cabecalho h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cabecalho h2 {
+    font-size: 18px;
+    letter-spacing: -0.225px;
+    color: #C0DF33;
+}
+
+.cabecalho p {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    color: #9AA7BE;
+}
+
+/* Parde do preço */
+.rodape {
+    display: flex;
+    width: 100%;
+}
+
+.preco {
+    background: #1d9694;
+    width: 50%;
+    flex-grow: 0.4;
+}
+
+.preco h1,
+.preco h2,
+.preco a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.preco h1 {
+    font-size: 32px;
+    display: flex;
+}
+
+.preco-info {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+    margin: 10px 0px;
+}
+
+.preco-info p {
+    color: #fff;
+    opacity: 0.5;
+    font-weight: normal;
+}
+
+.margin-top {
+    margin-top: 50px;
+
+}
+
+.preco a {
+    background-color: #C0DF33;
+    padding: 15px 90px;
+    border-radius: 7px;
+}
+
+.preco p {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: -0.2px
+}
+
+.preco,
+.sobre {
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Formatação de aside */
+.sobre {
+    background: #2AB3B1;
+    width: 50%;
+    flex-grow: 1;
+    line-height: 20px;
+}
+
+.sobre h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 14.26px;
+}
+
+.sobre ul {
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.75;
+    letter-spacing: -0.175px;
+    list-style: none;
+}
